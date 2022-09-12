@@ -6,7 +6,7 @@
  * Return: 0
  */
 
-int main()
+int main(void)
 {
 	int num;
 	char alp;
@@ -23,5 +23,6 @@ int main()
 		}
 	}
 
-    return (0);
+	putchar('\n');
+	return (0);
 }

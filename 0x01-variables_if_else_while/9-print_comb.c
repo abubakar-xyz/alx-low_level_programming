@@ -6,7 +6,7 @@
  * Return: 0
  */
 
-int main()
+int main(void)
 {
 	int num;
 
@@ -21,5 +21,6 @@ int main()
 		putchar(' ');
 	}
 
+	putchar('\n');
 	return (0);
 }
