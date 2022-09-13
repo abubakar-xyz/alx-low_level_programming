@@ -1,14 +1,21 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
- * main - prints out some characters
+ * main - calls the _putchar funtcion
+ * _putchar - prints out character to stdout
  *
  * Return: 0
  */
 int main(void)
 {
-	char text[] = "_putchar";
+	char c[] = "_putchar";
+	int i;
 
-	putchar(text);
+	for (i = 0; i < 9; i++)
+	{
+		_putchar(c[i]);
+	}
+
+	_putchar('\n');
 	return (0);
 }
