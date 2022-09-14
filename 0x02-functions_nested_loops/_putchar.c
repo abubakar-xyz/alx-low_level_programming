@@ -1,7 +1,7 @@
 #include <unistd.h>
 
 /**
- * _putchar: prints out single letters
+ * _putchar - prints out single letters
  * @c: The character to print
  *
  * Return: On success 1.
